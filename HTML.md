@@ -45,7 +45,7 @@
 	7 <link href="../../stylesheets/product.css" rel="stylesheet">
 
 テンプレートに従い、項目と内容を記述。  
-偶数奇数でのクラス名の順番を必ずつけること。
+偶数奇数のクラス名（odd,even）を順番通りに必ずつけること。
 
 	<!-- スペック編集箇所 -->
 	<div id="spectab">
