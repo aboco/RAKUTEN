@@ -1,8 +1,9 @@
 # BROTURES SHOP SITE
 BROTURESのショッピングサイトへの商品登録
 
-## Change Log
-2013/11/20 5:39　[HTMLページ編集](https://github.com/brotures/RAKUTEN/wiki/HTML%E3%83%9A%E3%83%BC%E3%82%B8%E7%B7%A8%E9%9B%86)と[商品情報入力ガイド](https://github.com/brotures/RAKUTEN/wiki/%E5%95%86%E5%93%81%E6%83%85%E5%A0%B1%E5%85%A5%E5%8A%9B%E3%82%AC%E3%82%A4%E3%83%89)を追加しました。
+## Change log
+### 2013/11/20 5:39
+[HTMLページ編集](https://github.com/brotures/RAKUTEN/wiki/HTML%E3%83%9A%E3%83%BC%E3%82%B8%E7%B7%A8%E9%9B%86)と[商品情報入力ガイド](https://github.com/brotures/RAKUTEN/wiki/%E5%95%86%E5%93%81%E6%83%85%E5%A0%B1%E5%85%A5%E5%8A%9B%E3%82%AC%E3%82%A4%E3%83%89)を追加しました。
 
 ## 目次
 
