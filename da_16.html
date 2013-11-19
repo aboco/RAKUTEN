@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<meta charset="utf-8">
+<meta name="robots" content="noindex,nofollow">
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<link href="../../stylesheets/bootstrap.css" rel="stylesheet">
+<link href="../../stylesheets/custom.css" rel="stylesheet">
+<link href="../../stylesheets/product.css" rel="stylesheet">
+
+<ul id="tabs">
+	<li>
+		<a href="#" name="#tab1"> Spec </a>
+	</li>
+</ul>
+
+<!-- スペック編集箇所 -->
+<div id="spectab">
+	<div id="tab1">
+		<table class="geotable" border="0">
+			<tbody>
+				<tr class="odd">
+					<td class="title">Weight</td>
+					<td>310g</td>
+				</tr>
+				<tr class="even">
+					<td class="title">Size</td>
+					<td>700c</td>
+				</tr>
+				<tr class="odd">
+					<td class="title">Hole</td>
+					<td>32H</td>
+				</tr>
+				<tr class="even">
+					<td class="title">Color</td>
+					<td>BLACK (Side CNC)</td>
+				</tr>
+			</tbody>
+		</table>
+	</div>
+</div>
+<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.8.2/jquery.min.js"></script>
+<script>
+function resetTabs(){$("#spectab > div").hide();$("#tabs a").attr("id","")}var myUrl=window.location.href;var myUrlTab=myUrl.substring(myUrl.indexOf("#"));var myUrlTabName=myUrlTab.substring(0,4);(function(){$("#spectab > div").hide();$("#tabs li:first a").attr("id","current");$("#spectab > div:first").fadeIn();$("#tabs a").on("click",function(e){e.preventDefault();if($(this).attr("id")=="current"){return}else{;resetTabs();$(this).attr("id","current");$($(this).attr('name')).fadeIn()}});for(i=1;i<=$("#tabs li").length;i++){if(myUrlTab==myUrlTabName+i){resetTabs();$("a[name='"+myUrlTab+"']").attr("id","current");$(myUrlTab).fadeIn()}}})();
+</script>

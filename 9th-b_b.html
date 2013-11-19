@@ -1,0 +1,65 @@
+<!doctype html>
+<meta charset="utf-8">
+<link href="http://www.rakuten.ne.jp/gold/brotures/css/spec.css" rel="stylesheet" />
+<ul id="tabs">
+		<li> <a href="#" name="#tab1"> Complete Spec </a> </li>
+</ul>
+<div id="spectab">
+		<div id="tab1">
+				<table class="geotable" border="0">
+						<tbody>
+								<tr class="odd">
+										<td class="title">Frame</td>
+										<td>Cr-Mo</td>
+										<td class="title">BB</td>
+										<td>NECO Cr-Mo</td>
+								<tr class="even">
+										<td class="title">Pedal</td>
+										<td>ABS</td>
+										<td class="title">Chainring</td>
+										<td>44T</td>
+								</tr>
+								<tr class="odd">
+										<td class="title">Frame Size</td>
+										<td>480 / 540 / 590</td>
+										<td class="title">Grip</td>
+										<td>PVC 110mm</td>
+								</tr>
+								<tr class="even">
+										<td class="title">Fork</td>
+										<td>HighTen Steel</td>
+										<td class="title">Grip</td>
+										<td>PVC 110mm</td>
+								</tr>
+								<tr class="odd">
+										<td class="title">Wheel</td>
+										<td>700c x 40mm Rim</td>
+										<td class="title">Handle</td>
+										<td>480mm Riser</td>
+								</tr>
+								<tr class="even">
+										<td class="title">Saddle</td>
+										<td>ABS, Soft type</td>
+										<td class="title">Hub</td>
+										<td>Alloy Large Flange</td>
+								</tr>
+								<tr class="odd">
+										<td class="title">Crank</td>
+										<td>165mm</td>
+										<td class="title">Tire</td>
+										<td>700c x 28c</td>
+								</tr>
+								<tr class="even">
+										<td class="title">Seatpost</td>
+										<td>300mm x 25.4mm</td>
+								</tr>
+								<tr class="odd">
+								</tr>
+						</tbody>
+				</table>
+		</div>
+</div>
+<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.8.2/jquery.min.js"></script> 
+<script>
+function resetTabs(){$("#spectab > div").hide();$("#tabs a").attr("id","")}var myUrl=window.location.href;var myUrlTab=myUrl.substring(myUrl.indexOf("#"));var myUrlTabName=myUrlTab.substring(0,4);(function(){$("#spectab > div").hide();$("#tabs li:first a").attr("id","current");$("#spectab > div:first").fadeIn();$("#tabs a").on("click",function(e){e.preventDefault();if($(this).attr("id")=="current"){return}else{;resetTabs();$(this).attr("id","current");$($(this).attr('name')).fadeIn()}});for(i=1;i<=$("#tabs li").length;i++){if(myUrlTab==myUrlTabName+i){resetTabs();$("a[name='"+myUrlTab+"']").attr("id","current");$(myUrlTab).fadeIn()}}})();
+</script> 
