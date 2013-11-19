@@ -9,6 +9,7 @@ BROTURESのショッピングサイトへの商品登録
 	* Amazon
 * 各ショッピングサイトの登録方法
 	* [楽天市場](https://github.com/brotures/RAKUTEN/wiki/%E7%99%BB%E9%8C%B2%E6%96%B9%E6%B3%95---%E6%A5%BD%E5%A4%A9%E5%B8%82%E5%A0%B4)
+		* [HTMLページ編集](https://github.com/brotures/RAKUTEN/blob/master/HTML.md)
 	* Amazon
 	* Magento
 * 画像管理
