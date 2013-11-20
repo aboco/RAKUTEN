@@ -17,7 +17,7 @@ BROTURESのショッピングサイトへの商品登録
 		* [商品情報入力ガイド](https://github.com/brotures/RAKUTEN/wiki/%E5%95%86%E5%93%81%E6%83%85%E5%A0%B1%E5%85%A5%E5%8A%9B%E3%82%AC%E3%82%A4%E3%83%89)
 	* Amazon
 	* Magento
-* 画像管理
+* [画像管理](https://github.com/brotures/RAKUTEN/wiki/%E7%94%BB%E5%83%8F%E7%AE%A1%E7%90%86)
 * 業務報告
 
 =====
